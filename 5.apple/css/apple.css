@@ -1,0 +1,26 @@
+
+#topnav {
+    background-color: gray;
+    height: 48px;
+}
+.frist-menu {
+    display: flex
+}
+.logoimage {
+    width: 24px;
+    height: 44px;
+    background-image: url(../img/globalnav_apple_image__b5er5ngrzxqq_large.svg);
+    background-repeat: no-repeat;
+}
+.storeimage {
+    width: 30px;
+    height: 44px;
+    background-image: url(../img/globalnav_links_store_image__c7jy08initqq_large.svg);
+    background-repeat: no-repeat;
+}
+.macimage {
+    width: 23px;
+    height: 44px;
+    background-image: url(../img/globalnav_links_mac_image__dazlko3t9a6a_large.svg);
+    background-repeat: no-repeat;
+}
