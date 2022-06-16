@@ -1,0 +1,275 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 71px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.nav-wrapper {
+    display: flex;
+}
+
+.padding {
+    padding: 0 10px 0;
+    font-size: 14px;
+    color: rgba(88,101,242,1)
+}
+main>#main-title {
+    background-image: url(../img/b7e9dce75f9edb23504e13b4699e208f204e5015.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+.inner>h1 {
+    font-size: 36px;
+    line-height: 44px;
+    color: white;
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.search-image {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    color: #777;
+    top: 71%;
+    left: 133px;
+}
+
+.search input[type=search] {
+    width: 601px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.inner {
+    position: relative;
+    top: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon-size {
+    width: 115px;
+    height: 125px;
+    margin-top: 10px;
+}
+
+#intro {
+    text-align: center;
+}
+
+#intro>h1 {
+    margin-top: 104px;
+    font-size: 26px;
+}
+
+#intro>p {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+
+#intro>p>a {
+    color: rgba(88,101,242,1);
+    display: inline-block;
+}
+
+.container {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container>a {
+    width: 240px;
+    height: 260px;
+    box-shadow: 0px 9px 30px rgb(200 200 200 / 30%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+}
+.discord-interface {
+    text-align: center;
+}
+
+.discord-interface>h2 {
+    font-size: 22px;
+    color: #5865f2;
+    margin-top: -4px;
+}
+
+.discord-interface>p {
+    font-size: 14px;
+    width: 200px;
+    margin: 20px auto 0;
+    color: #68727e;
+}
+
+.container-gray {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-gray>a {
+    width: 240px;
+    height: 260px;
+    box-shadow: 0px 9px 30px rgb(200 200 200 / 30%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+    background-color: #f2f2f2;
+}
+
+#intro>h2 {
+    font-size: 22px;
+    margin-top: 61px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #23272a;
+    background-size: 235px 185px;
+    margin-top: 70px;
+    width: 100%;
+}
+
+.icon-internet {
+    width: 174px;
+    height: 50px;
+    margin-left: 87px;
+    margin-top: 55px;
+    position: absolute;
+    opacity: .5;
+}
+
+.icon-android {
+    width: 41px;
+    height: 50px;
+    margin-left: 378px;
+    margin-top: 55px;
+    position: absolute;
+    opacity: .5;
+}
+
+.icon-apple {
+    width: 40px;
+    height: 48px;
+    margin-left: 471px;
+    margin-top: 55px;
+    position: absolute;
+    opacity: .5;
+}
+
+.icon-micro {
+    width: 50px;
+    height: 50px;
+    margin-left: 602px;
+    padding: 0 20px;
+    margin-top: 55px;
+    position: absolute;
+    opacity: .5;
+}
+
+.margin-size{
+    margin-left: 65px;
+}
+
+.logo-discord-image {
+    width: 130px;
+    height: 36px;
+}
+
+.button>a {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.design {
+    background-color: #3ba55c;
+    border-radius: 25px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 16px;
+    margin: 50px 0;
+    width: 250px;
+    height: 42px;
+    color: white;
+}
+
+.apps {
+    background-image: url(../img/c9f23a6ae41ebc0d9c21b08c2158c112fd5847b2.png);
+    background-size: 814px 145px;
+    background-repeat: no-repeat;
+    width: 814px;
+    height: 145px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 0 177px;
+}
+
+.nav-bottom {
+    border-top: 1px solid rgba(219,221,225,.1);
+    padding: 0 30px 50px;
+}
+
+.brand {
+    height: 38px;
+    margin-top: 30px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 60px;
+    display: flex;
+}
+
+.link-menu {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 202px;
+    height: 124px;
+    margin-top: -36px;
+}
+
+.link-item {
+    padding: 8px 0;
+    text-align: left;
+    display: flex;
+}
+
+.link-item>a {
+    color: white;
+    opacity: .3;
+}
+
+.hipen {
+    width: 19px;
+    text-align: center;
+    color: white;
+    opacity: .3;
+}
+
+.green {
+    color: #3BA55C;
+    opacity: 1;
+    font-size: 15px;
+}
