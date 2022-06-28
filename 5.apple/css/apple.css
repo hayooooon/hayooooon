@@ -1,26 +1,85 @@
+.pc-hide-wrapper {
+    background-color: #424245;
+}
 
-#topnav {
-    background-color: gray;
+.pc-hide-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-nav-wrapper {
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 22px;
+    background-color: #424245;
+}
+
+.menu-wrapper {
     height: 48px;
+    width: 48px;
 }
-.frist-menu {
-    display: flex
+
+.wrapper-image {
+    color: white;
 }
-.logoimage {
-    width: 24px;
-    height: 44px;
+
+.apple-logo {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    left: 50%;
+    margin-left: -24px;
+}
+
+.apple-image {
+    background-size: 17px 48px;
+    height: 48px;
+    background-repeat: no-repeat;
     background-image: url(../img/globalnav_apple_image__b5er5ngrzxqq_large.svg);
-    background-repeat: no-repeat;
 }
-.storeimage {
-    width: 30px;
-    height: 44px;
-    background-image: url(../img/globalnav_links_store_image__c7jy08initqq_large.svg);
-    background-repeat: no-repeat;
+
+.bag-logo {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    text-align: center;
 }
-.macimage {
-    width: 23px;
-    height: 44px;
-    background-image: url(../img/globalnav_links_mac_image__dazlko3t9a6a_large.svg);
+
+.bag-image {
+    background-size: 15px 48px;
+    height: 48px;
     background-repeat: no-repeat;
+    background-image: url(../img/globalnav_bag_image__yzte50i47ciu_large.svg);
+}
+
+.mobile-hide-menu {
+    margin: 0 -8px;
+    width: auto;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile-hide {
+    display: inline-block;
+    position: relative;
+    height: 44px;
+}
+
+.navlogo {
+    background-size: 17px 48px;
+    width: 14px;
+    background-repeat: no-repeat;
+    background-image: url(../img/globalnav_apple_image__b5er5ngrzxqq_large.svg);
+    background-position: center;
+}
+
+@media only screen and (min-width:833px) {
+    .pc-hide-menu {
+        display: block;
+    }
+
+    .mobile-hide-menu {
+    }
 }
