@@ -28,8 +28,7 @@
     width: 48px;
     height: 48px;
     text-align: center;
-    left: 50%;
-    margin-left: -24px;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                           margin-left: -24px;
 }
 
 .apple-image {
@@ -83,18 +82,19 @@
 
 .second-nav-wrapper {
     position: relative;
-    background-color: #1d1d1f;
+    background-color: #000;
     height: 100px;
-    padding: 0 8px;
+    padding: 8px 0;
 }
 
-#sec-nav {
+.sec-nav {
     padding-bottom: 49px;
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
     margin: 0 34px;
     display: flex;
+    justify-content: center;
 }
 
 .sec-nav-item {
@@ -206,4 +206,183 @@
     width: 66px;
     height: 54px;
     margin: 0 auto 7px;
+}
+
+.text {
+    font-size: 12px;
+    font-weight: 400;
+    color: #f5f5f7;
+}
+
+.section-ipad-air {
+    padding-top: 68px;
+    padding-bottom: 66px;
+    background-color: #000;
+}
+
+.section-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.text-section {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-content {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.head-line-dark {
+    color: #fff;
+    font-size: 56px;
+    font-weight: 600;
+    position: relative;
+}
+
+.new {
+    color: #f56300;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    width: 100%;
+    top: -25px;
+}
+
+.typo-air {
+    width: 88px;
+    height: 46px;
+    background-size: 88px 46px;
+    background-repeat: no-repeat;
+    background-image: url(../img/air_script__coyet2g7gkia_large_2x.png);
+    position: absolute;
+    display: inline-block;
+    margin-left: 3px;
+    margin-bottom: -4px;
+}
+
+.informaiton-dark {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: -1px;
+    text-align: center;
+}
+
+.price-dark {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.button {
+    margin-top: 12px;
+    margin-bottom: 13px;
+    background-color: #0071e3;
+    color: #FFF;
+    display: inline-block;
+    text-align: center;
+    font-size: 17px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 980px;
+    width: 62.7px;
+    height: 36px;
+    line-height: 2.17648;
+}
+
+.image-ipad-air {
+    width: 680px;
+    height: 695px;
+    background-size: 680px 695px;
+    background-image: url(../img/ipad_air__d794tkovmk02_large_2x.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 111px;
+}
+
+.more {
+    color: #2997ff;
+    font-size: 17px;
+}
+
+.headline {
+    font-size: 56px;
+    font-weight: 600;
+    position: relative;
+}
+
+.informaiton {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: -1px;
+    text-align: center;
+}
+
+.price {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.section-ipad-pro {
+    padding-top: 78px;
+    padding-bottom: 71px;
+    position: relative;
+    margin-bottom: 13px;
+    background-color: #fff;
+}
+
+.image-section-pro {
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+    margin-left: 16.6667%;
+}
+
+.image-ipad-pro {
+    width: 1335px;
+    height: 598px;
+    background-size: 1335px 598px;
+    background-repeat: no-repeat;
+    background-image: url(../img/ipad_pro_hero__bh3eq6sqfjw2_large_2x.jpg);
+    position: relative;
+    left: 50%;
+    margin-left: -178.5px;
+}
+
+.text-content-pro {
+    margin-top: -125px;
+    text-align: center;
+}
+
+.section-ipad-10-2 {
+    padding-bottom: 33px;
+    position: relative;
+    margin-bottom: 13px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.text-section-ipad {
+    justify-content: flex-start;
+    margin-top: 214px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-section-ipad {
+    flex-basis: 66.66667%;
+    max-width: 66.66667%;
+    box-sizing: border-box;
 }
