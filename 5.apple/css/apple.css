@@ -386,3 +386,119 @@
     max-width: 66.66667%;
     box-sizing: border-box;
 }
+
+.image-ipad-pro {
+    width: 1335px;
+    height: 598px;
+    background-size: 1335px 598px;
+    background-repeat: no-repeat;
+    background-image: url(../img/ipad_pro_hero__bh3eq6sqfjw2_large_2x.jpg);
+    position: relative;
+    left: 50%;
+    margin-left: -178.5px;
+}
+
+.text-content-pro {
+    margin-top: -125px;
+    text-align: center;
+    z-index: 1;
+}
+
+.section-ipad-10-2 {
+    padding-bottom: 33px;
+    position: relative;
+    margin-bottom: 13px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.text-section-ipad {
+    justify-content: flex-start;
+    margin-top: 214px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-section-ipad {
+    flex-basis: 66.66667%;
+    max-width: 66.66667%;
+    box-sizing: border-box;
+}
+
+.image-ipad-10-2 {
+    width: 856px;
+    height: 813px;
+    background-size: 856px 813px;
+    background-repeat: no-repeat;
+    background-image: url(../img/ipad_10_2__7yowwyyrbmaa_large_2x.jpg);
+    position: relative;
+    left: 50%;
+    margin-left: -270px;
+    margin-top: -98px;
+}
+
+.link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.image-section-mini {
+    flex-basis: 50%;
+    margin-left: 8.33333%;
+}
+
+.image-ipad-mini {
+    width: 503px;
+    height: 579px;
+    background-size: 503px 579px;
+    background-repeat: no-repeat;
+    background-image: url(../img/ipad_mini__dn6g8b0hw8om_large_2x.jpg);
+    position: relative;
+    left: 50%;
+    margin-left: -285.5px;
+}
+
+.typo-mini {
+    width: 103px;
+    height: 41px;
+    background-size: 103px 41px;
+    background-image: url(../img/mini_script__bjahejz6luqa_large_2x.png);
+    display: inline-block;
+    margin-bottom: -1px;
+}
+
+.wrapper {
+    background: #fff;
+    padding-top: 115px;
+    padding-bottom: 105px;
+}
+
+.head-line {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+    font-size: 56px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.compare-grid {
+    margin-top: 68px;
+    margin-bottom: 73px;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, auto);
+    grid-row-gap: 38px;
+    grid-column-gap: 34px;
+    grid-template-areas:
+     "ipad-pro-device ipad-air-device ipad-device ipad-mini-device"
+     "ipad-pro-display ipad-air-display ipad-display ipad-mini-display"
+     "ipad-pro-chip ipad-air-chip ipad-chip ipad-mini-chip" ;
+    
+}
